@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday YinNweOo ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas"></canvas>
+    
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">❤️ YN</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#love-letter">Love Letter</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#cake">Cake</a></li>
+                <li><a href="#wishes">Wishes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="sparkle-text">
+                <h1 class="main-title">Happy Birthday</h1>
+                <h2 class="name-title">YinNweOo</h2>
+            </div>
+            <p class="birthdate">Born on September 28, 2005</p>
+            <div class="age-counter">
+                <p class="counter-text">Turning <span id="ageNumber">21</span> Years Old</p>
+            </div>
+            <div class="countdown">
+                <h3>Countdown to Your Special Day</h3>
+                <div id="countdown" class="countdown-timer">
+                    <div class="time-unit">
+                        <span id="days">00</span>
+                        <p>Days</p>
+                    </div>
+                    <div class="time-unit">
+                        <span id="hours">00</span>
+                        <p>Hours</p>
+                    </div>
+                    <div class="time-unit">
+                        <span id="minutes">00</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="time-unit">
+                        <span id="seconds">00</span>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Letter Section -->
+    <section id="love-letter" class="love-letter-section">
+        <div class="container">
+            <h2 class="section-title">A Letter For You</h2>
+            <div class="letter-container fade-in">
+                <div class="letter">
+                    <div class="letter-content">
+                        <p class="letter-greeting">My Dearest YinNweOo,</p>
+                        <p>On this beautiful day, I want to tell you how special you are. Your smile lights up my world, and your love makes every moment magical.</p>
+                        <p>Since the day you were born on September 28, 2005, the world became a better place. And since the day I met you, my life has been filled with endless joy and love.</p>
+                        <p>Every moment with you is a gift I treasure. Your kindness, your laughter, your gentle touch - everything about you makes my heart sing.</p>
+                        <p>On your 21st birthday, I promise to always be here for you, to make you smile, to hold your hand through every journey, and to love you more with each passing day.</p>
+                        <p class="letter-closing">Forever Yours,<br>SiThuMaung ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Your Beautiful Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>September 28, 2005</h3>
+                        <p>The day an angel was born. The world became brighter when you arrived. ✨</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Your First Steps</h3>
+                        <p>Every step you took brought joy to everyone around you. 🌸</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>The Day We Met</h3>
+                        <p>My life changed forever when I met you. Love at first sight. 💕</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Today - Your 21st Birthday</h3>
+                        <p>Celebrating the most amazing person in the world. You deserve all the happiness! 🎂🎉</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cake Section -->
+    <section id="cake" class="cake-section">
+        <div class="container">
+            <h2 class="section-title">Make a Wish!</h2>
+            <p class="cake-instruction">Click the candles to blow them out 🎂</p>
+            <div class="cake-container fade-in">
+                <div class="cake">
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+                    <div class="candles">
+                        <div class="candle" data-candle="1">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle" data-candle="2">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle" data-candle="3">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle" data-candle="4">
+                            <div class="flame"></div>
+                        </div>
+                        <div class="candle" data-candle="5">
+                            <div class="flame"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="wishMessage" class="wish-message hidden">
+                    <p>🎉 Happy 21st Birthday YinNweOo! 🎉</p>
+                    <p>May all your dreams come true! ✨</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Wishes Section -->
+    <section id="wishes" class="wishes-section">
+        <div class="container">
+            <h2 class="section-title">Birthday Wishes</h2>
+            <div class="wishes-grid">
+                <div class="wish-card fade-in">
+                    <div class="wish-icon">💖</div>
+                    <h3>Love & Happiness</h3>
+                    <p>May your life be filled with endless love and joy every single day.</p>
+                </div>
+                <div class="wish-card fade-in">
+                    <div class="wish-icon">✨</div>
+                    <h3>Dreams Come True</h3>
+                    <p>May all your beautiful dreams become reality in this new year of life.</p>
+                </div>
+                <div class="wish-card fade-in">
+                    <div class="wish-icon">🌟</div>
+                    <h3>Success & Prosperity</h3>
+                    <p>May success follow you in everything you do. You deserve the best!</p>
+                </div>
+                <div class="wish-card fade-in">
+                    <div class="wish-icon">💕</div>
+                    <h3>Health & Wellness</h3>
+                    <p>Wishing you perfect health and happiness today and always.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-message">Made with ❤️ for the most amazing girl in the world</p>
+            <p class="footer-name">Happy 21st Birthday YinNweOo!</p>
+            <p class="footer-date">September 28, 2026</p>
+            <div class="footer-hearts">
+                <span>❤️</span>
+                <span>💕</span>
+                <span>💖</span>
+                <span>💗</span>
+                <span>❤️</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Background Music Control -->
+    <div class="music-control" id="musicControl">
+        <button id="musicToggle" class="music-btn" title="Click to listen to music">🎵</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
